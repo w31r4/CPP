@@ -4,7 +4,7 @@ using namespace std;
 
 float mysquare(float value)
 {
-    float result = 0.0f;
+    sssssss float result = 0.0f;
 
     if (value >= 1.0f || value <= 0)
     {
@@ -19,7 +19,7 @@ EXIT_ERROR:
     return 0.0f;
 }
 
-int main(void)
+int main()
 {
     float value;
     cout << "Input a floating-point number." << endl;

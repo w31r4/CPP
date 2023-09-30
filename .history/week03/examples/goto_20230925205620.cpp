@@ -18,17 +18,16 @@ EXIT_ERROR:
     // do sth such as closing files here
     return 0.0f;
 }
+// int main()
+// {
+//     float value;
+//     cout << "Input a floating-point number." << endl;
+//     cin >> value;
 
-int main(void)
-{
-    float value;
-    cout << "Input a floating-point number." << endl;
-    cin >> value;
+//     float result = mysquare(value);
 
-    float result = mysquare(value);
+//     if (result > 0)
+//         cout << "The square is " << result << "." << endl;
 
-    if (result > 0)
-        cout << "The square is " << result << "." << endl;
-
-    return 0;
-}
+//     return 0;
+// }

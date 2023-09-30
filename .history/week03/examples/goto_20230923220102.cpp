@@ -6,7 +6,7 @@ float mysquare(float value)
 {
     float result = 0.0f;
 
-    if (value >= 1.0f || value <= 0)
+    if(value >= 1.0f || value <= 0)
     {
         cerr << "The input is out of range." << endl;
         goto EXIT_ERROR;
@@ -14,12 +14,12 @@ float mysquare(float value)
     result = value * value;
     return result;
 
-EXIT_ERROR:
-    // do sth such as closing files here
+  EXIT_ERROR:
+    //do sth such as closing files here
     return 0.0f;
 }
 
-int main(void)
+int main()
 {
     float value;
     cout << "Input a floating-point number." << endl;

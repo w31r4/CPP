@@ -18,8 +18,7 @@ EXIT_ERROR:
     // do sth such as closing files here
     return 0.0f;
 }
-
-int main(void)
+int main()
 {
     float value;
     cout << "Input a floating-point number." << endl;
